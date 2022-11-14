@@ -1,0 +1,63 @@
+/*---------------------------------------------------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+Build  : 9-b456138dc4bc
+Exec   : reconstructPar
+Date   : Jul 04 2022
+Time   : 19:45:14
+Host   : "KORIN-LAB"
+PID    : 3105
+I/O    : uncollated
+Case   : /home/colin/OpenFOAM/colin-9/run/wsl/wedge_needle/concentration/3/90_needle_layer
+nProcs : 1
+sigFpe : Enabling floating point exception trapping (FOAM_SIGFPE).
+fileModificationChecking : Monitoring run-time modified files using timeStampMaster (fileModificationSkew 10)
+allowSystemOperations : Allowing user-supplied system call operations
+
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+Create time
+
+
+
+Reconstructing fields for mesh region0
+
+Time = 2228
+
+Reconstructing FV fields
+
+    Reconstructing volScalarFields
+
+        nu
+        strainRate
+        p
+
+    Reconstructing volVectorFields
+
+        wallShearStress
+        U
+
+    Reconstructing volSymmTensorFields
+
+        shearStress
+
+    Reconstructing volTensorFields
+
+        grad(U)
+
+    Reconstructing surfaceScalarFields
+
+        phi
+
+Reconstructing point fields
+
+No point fields
+
+No lagrangian fields
+
+
+End
+

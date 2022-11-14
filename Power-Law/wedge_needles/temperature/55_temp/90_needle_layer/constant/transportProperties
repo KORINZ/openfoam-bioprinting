@@ -1,0 +1,28 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "constant";
+    object      transportProperties;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+transportModel  powerLaw;
+
+powerLawCoeffs
+{
+    nuMax           nuMax [ 0 2 -1 0 0 0 0 ] 11.267e-3;
+    nuMin           nuMin [ 0 2 -1 0 0 0 0 ] 0.40773e-3;
+    
+    k               k [ 0 2 -1 0 0 0 0 ] 5.13e-3;
+    n               n [ 0 0 0 0 0 0 0 ]  0.64;
+}
+//2.5%w/v Alginate @ 55C
+// ************************************************************************* //

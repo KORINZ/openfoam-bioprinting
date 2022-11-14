@@ -1,0 +1,30 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+  =========                 |
+  \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox
+   \\    /   O peration     | Website:  https://openfoam.org
+    \\  /    A nd           | Version:  9
+     \\/     M anipulation  |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    format      ascii;
+    class       dictionary;
+    location    "system";
+    object      decomposeParDict;
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+//- Force AMI to be on single processor. Can cause imbalance with some
+//  decomposers.
+//singleProcessorFaceSets ((AMI -1));
+
+numberOfSubdomains 6;
+
+method          scotch;
+
+distributed     no;
+
+roots           ( );
+
+
+// ************************************************************************* //
