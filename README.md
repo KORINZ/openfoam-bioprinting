@@ -1,5 +1,7 @@
 # A Numerical Investigation of Stresses, Printing Efficiency, Printability, and Cell Viability in Nozzle Printheads for 3D Extrusion Bioprinting
 
+## Introduction
+
 3D (three-dimensional) extrusion bioprinting is a rapidly developing field in tissue engineering. Recent advances have ushered in a new stage of producing customized and bioengineered structures in regenerative medicine, pharmacokinetics, and basic cell biology studies. 3D extrusion bioprinters are the most widely used devices for various types of bioprinting devices because of their excellent cost-effectiveness and simple operation. They extrude bioinks (hydrogels that contain living cells) from needles to form filaments and scaffolds that can later be cross-linked and used to construct desired biostructures.
 
 During the extrusion, controlling stresses inside the needle is a significant factor in balancing printing resolution and cell viability. As experimentally observing stresses inside the syringe is complex, and testing thousands of bioink with different kinds of rheological properties is tedious and repetitive, the need to utilize numerical simulation to understand and optimize needle geometries, printing efficiency, and printability. Cell viability becomes an urgent task for 3D extrusion bioprinting devices. This research considers alginate-based bioinks since they are the most commonly used commercial bioinks due to low cost, biocompatibility, and facile gelation. Nonetheless, the numerical model can be easily modified to adapt to various kinds of bioinks.
