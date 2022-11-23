@@ -1,3 +1,5 @@
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+
 # A Numerical Investigation of Stresses, Printing Efficiency, Printability, and Cell Viability in Nozzle Printheads for 3D Extrusion Bioprinting
 
 ## Introduction
